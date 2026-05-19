@@ -18,13 +18,13 @@ public class PlayerAnimator : MonoBehaviour
 
     void Update()
     {
-        // Animation speed
+        // animation speed
         if (Mathf.Abs(rb.linearVelocity.x) > 0.01f)
             animator.speed = 1f;
         else
-            animator.speed = 0.3f;
+            animator.speed = 0.5f;
 
-        // Sprite flipping
+        // sprite flipping
         if (rb.linearVelocity.x > 0.01f && !facingRight)
         {
             facingRight = true;
@@ -49,7 +49,7 @@ public class PlayerAnimator : MonoBehaviour
         float startX = transform.localScale.x;
         Vector3 scale = transform.localScale;
 
-        // Squish to 0 from current position
+        // squish to 0 from current position
         float t = 0f;
         while (t < 1f)
         {
@@ -59,7 +59,7 @@ public class PlayerAnimator : MonoBehaviour
             yield return null;
         }
 
-        // Unsquish to target
+        // unsquish to target
         t = 0f;
         while (t < 1f)
         {
