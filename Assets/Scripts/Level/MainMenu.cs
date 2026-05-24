@@ -4,6 +4,8 @@ using UnityEngine.SceneManagement;
 public class MainMenu : MonoBehaviour
 {
     [SerializeField] private GameObject creditsPanel;
+    [SerializeField] private GameObject settingsPanel;
+    [SerializeField] private GameObject dimmer;
 
     public void OnPlayButton()
     {
@@ -12,18 +14,26 @@ public class MainMenu : MonoBehaviour
 
     public void OnCreditsButton()
     {
+        dimmer.SetActive(true);
         creditsPanel.SetActive(true);
     }
 
     public void OnCloseCredits()
     {
+        dimmer.SetActive(false);
         creditsPanel.SetActive(false);
     }
 
     public void OnSettingsButton()
     {
-        // Settings logic will go here later
-        Debug.Log("Settings pressed");
+        dimmer.SetActive(true);
+        settingsPanel.SetActive(true);
+    }
+
+    public void OnCloseSettings()
+    {
+        dimmer.SetActive(false);
+        settingsPanel.SetActive(false);
     }
 
     public void OnQuitButton()

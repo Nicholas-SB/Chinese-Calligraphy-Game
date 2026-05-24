@@ -1,0 +1,871 @@
+fileFormatVersion: 2
+guid: 766637c211cfee04eb242558e57cc3ad
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1684313615651012707
+    second: phase2_slime3_attack_destroyed3_20260228214643_0
+  - first:
+      213: 2605793758380674540
+    second: phase2_slime3_attack_destroyed3_20260228214643_1
+  - first:
+      213: -1393676286447165134
+    second: phase2_slime3_attack_destroyed3_20260228214643_2
+  - first:
+      213: 6122096331688455575
+    second: phase2_slime3_attack_destroyed3_20260228214643_3
+  - first:
+      213: 7718582697503192421
+    second: phase2_slime3_attack_destroyed3_20260228214643_4
+  - first:
+      213: 3806038736070329397
+    second: phase2_slime3_attack_destroyed3_20260228214643_5
+  - first:
+      213: -1732006881293854487
+    second: phase2_slime3_attack_destroyed3_20260228214643_6
+  - first:
+      213: 6971869679183677176
+    second: phase2_slime3_attack_destroyed3_20260228214643_7
+  - first:
+      213: 1471021352001211587
+    second: phase2_slime3_attack_destroyed3_20260228214643_8
+  - first:
+      213: 9021550704635815167
+    second: phase2_slime3_attack_destroyed3_20260228214643_9
+  - first:
+      213: -5514425364356101808
+    second: phase2_slime3_attack_destroyed3_20260228214643_10
+  - first:
+      213: -5491930010082846119
+    second: phase2_slime3_attack_destroyed3_20260228214643_11
+  - first:
+      213: -175224709109335917
+    second: phase2_slime3_attack_destroyed3_20260228214643_12
+  - first:
+      213: -3613751003725682830
+    second: phase2_slime3_attack_destroyed3_20260228214643_13
+  - first:
+      213: 4339925541719551711
+    second: phase2_slime3_attack_destroyed3_20260228214643_14
+  - first:
+      213: -5306330672079833164
+    second: phase2_slime3_attack_destroyed3_20260228214643_15
+  - first:
+      213: 4021564585472105714
+    second: phase2_slime3_attack_destroyed3_20260228214643_16
+  - first:
+      213: -6005796533416795321
+    second: phase2_slime3_attack_destroyed3_20260228214643_17
+  - first:
+      213: 6414502536259841075
+    second: phase2_slime3_attack_destroyed3_20260228214643_18
+  - first:
+      213: -5723974084184444220
+    second: phase2_slime3_attack_destroyed3_20260228214643_19
+  - first:
+      213: -2648139776403555424
+    second: phase2_slime3_attack_destroyed3_20260228214643_20
+  - first:
+      213: -8090352610112313175
+    second: phase2_slime3_attack_destroyed3_20260228214643_21
+  - first:
+      213: -7908150958666167498
+    second: phase2_slime3_attack_destroyed3_20260228214643_22
+  - first:
+      213: -7346332455213082402
+    second: phase2_slime3_attack_destroyed3_20260228214643_23
+  - first:
+      213: 1810748363504790681
+    second: phase2_slime3_attack_destroyed3_20260228214643_24
+  - first:
+      213: -4166267757210891120
+    second: phase2_slime3_attack_destroyed3_20260228214643_25
+  - first:
+      213: -896638500052045770
+    second: phase2_slime3_attack_destroyed3_20260228214643_26
+  - first:
+      213: 2242244247173533035
+    second: phase2_slime3_attack_destroyed3_20260228214643_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: phase2_slime3_attack_destroyed3_20260228214643_0
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 496
+        width: 15
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3608b3f3f42ef5710800000000000000
+      internalID: 1684313615651012707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phase2_slime3_attack_destroyed3_20260228214643_1
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 522
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cedc53efd93a92420800000000000000
+      internalID: 2605793758380674540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phase2_slime3_attack_destroyed3_20260228214643_2
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 519
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2316e6e2dcaa8ace0800000000000000
+      internalID: -1393676286447165134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phase2_slime3_attack_destroyed3_20260228214643_3
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 515
+        width: 17
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79d230b6d2e06f450800000000000000
+      internalID: 6122096331688455575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phase2_slime3_attack_destroyed3_20260228214643_4
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 521
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 565772e811aed1b60800000000000000
+      internalID: 7718582697503192421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phase2_slime3_attack_destroyed3_20260228214643_5
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 520
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53449d0b014c1d430800000000000000
+      internalID: 3806038736070329397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phase2_slime3_attack_destroyed3_20260228214643_6
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 508
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e892f30beca6f7e0800000000000000
+      internalID: -1732006881293854487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phase2_slime3_attack_destroyed3_20260228214643_7
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 507
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f64f00e88e01c060800000000000000
+      internalID: 6971869679183677176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phase2_slime3_attack_destroyed3_20260228214643_8
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 503
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cc0c07302e1a6410800000000000000
+      internalID: 1471021352001211587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phase2_slime3_attack_destroyed3_20260228214643_9
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 499
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff42ef0519cf23d70800000000000000
+      internalID: 9021550704635815167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phase2_slime3_attack_destroyed3_20260228214643_10
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 469
+        width: 72
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05986290953d873b0800000000000000
+      internalID: -5514425364356101808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phase2_slime3_attack_destroyed3_20260228214643_11
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 483
+        width: 48
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95a54b9d0ceb8c3b0800000000000000
+      internalID: -5491930010082846119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phase2_slime3_attack_destroyed3_20260228214643_12
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 473
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 398baa13e0a719df0800000000000000
+      internalID: -175224709109335917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phase2_slime3_attack_destroyed3_20260228214643_13
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 453
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 277283ccb9069ddc0800000000000000
+      internalID: -3613751003725682830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phase2_slime3_attack_destroyed3_20260228214643_14
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 465
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdea6d949438a3c30800000000000000
+      internalID: 4339925541719551711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phase2_slime3_attack_destroyed3_20260228214643_15
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 460
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b7fbed2e502c56b0800000000000000
+      internalID: -5306330672079833164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phase2_slime3_attack_destroyed3_20260228214643_16
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 425
+        width: 25
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fc1b5eeea77fc730800000000000000
+      internalID: 4021564585472105714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phase2_slime3_attack_destroyed3_20260228214643_17
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 440
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7436b687fdf17aca0800000000000000
+      internalID: -6005796533416795321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phase2_slime3_attack_destroyed3_20260228214643_18
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 431
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33c2c9c3214e40950800000000000000
+      internalID: 6414502536259841075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phase2_slime3_attack_destroyed3_20260228214643_19
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 431
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c2f4a8b5eb5090b0800000000000000
+      internalID: -5723974084184444220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phase2_slime3_attack_destroyed3_20260228214643_20
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 410
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ab32ef57eaef3bd0800000000000000
+      internalID: -2648139776403555424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phase2_slime3_attack_destroyed3_20260228214643_21
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 392
+        width: 63
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a8e9966a2b49bf80800000000000000
+      internalID: -8090352610112313175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phase2_slime3_attack_destroyed3_20260228214643_22
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 370
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63bc98e2a9a904290800000000000000
+      internalID: -7908150958666167498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phase2_slime3_attack_destroyed3_20260228214643_23
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 270
+        width: 23
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed8d915fd859c0a90800000000000000
+      internalID: -7346332455213082402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phase2_slime3_attack_destroyed3_20260228214643_24
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 134
+        width: 84
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99ca258fa02112910800000000000000
+      internalID: 1810748363504790681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phase2_slime3_attack_destroyed3_20260228214643_25
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 180
+        width: 23
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09c08447c817e26c0800000000000000
+      internalID: -4166267757210891120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phase2_slime3_attack_destroyed3_20260228214643_26
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 180
+        width: 44
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6307578e8008e83f0800000000000000
+      internalID: -896638500052045770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phase2_slime3_attack_destroyed3_20260228214643_27
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 140
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6d017c434d0e1f10800000000000000
+      internalID: 2242244247173533035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      phase2_slime3_attack_destroyed3_20260228214643_0: 1684313615651012707
+      phase2_slime3_attack_destroyed3_20260228214643_1: 2605793758380674540
+      phase2_slime3_attack_destroyed3_20260228214643_10: -5514425364356101808
+      phase2_slime3_attack_destroyed3_20260228214643_11: -5491930010082846119
+      phase2_slime3_attack_destroyed3_20260228214643_12: -175224709109335917
+      phase2_slime3_attack_destroyed3_20260228214643_13: -3613751003725682830
+      phase2_slime3_attack_destroyed3_20260228214643_14: 4339925541719551711
+      phase2_slime3_attack_destroyed3_20260228214643_15: -5306330672079833164
+      phase2_slime3_attack_destroyed3_20260228214643_16: 4021564585472105714
+      phase2_slime3_attack_destroyed3_20260228214643_17: -6005796533416795321
+      phase2_slime3_attack_destroyed3_20260228214643_18: 6414502536259841075
+      phase2_slime3_attack_destroyed3_20260228214643_19: -5723974084184444220
+      phase2_slime3_attack_destroyed3_20260228214643_2: -1393676286447165134
+      phase2_slime3_attack_destroyed3_20260228214643_20: -2648139776403555424
+      phase2_slime3_attack_destroyed3_20260228214643_21: -8090352610112313175
+      phase2_slime3_attack_destroyed3_20260228214643_22: -7908150958666167498
+      phase2_slime3_attack_destroyed3_20260228214643_23: -7346332455213082402
+      phase2_slime3_attack_destroyed3_20260228214643_24: 1810748363504790681
+      phase2_slime3_attack_destroyed3_20260228214643_25: -4166267757210891120
+      phase2_slime3_attack_destroyed3_20260228214643_26: -896638500052045770
+      phase2_slime3_attack_destroyed3_20260228214643_27: 2242244247173533035
+      phase2_slime3_attack_destroyed3_20260228214643_3: 6122096331688455575
+      phase2_slime3_attack_destroyed3_20260228214643_4: 7718582697503192421
+      phase2_slime3_attack_destroyed3_20260228214643_5: 3806038736070329397
+      phase2_slime3_attack_destroyed3_20260228214643_6: -1732006881293854487
+      phase2_slime3_attack_destroyed3_20260228214643_7: 6971869679183677176
+      phase2_slime3_attack_destroyed3_20260228214643_8: 1471021352001211587
+      phase2_slime3_attack_destroyed3_20260228214643_9: 9021550704635815167
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

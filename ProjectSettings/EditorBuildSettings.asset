@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/1_Bedroom.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
+    path: Assets/Scenes/1_Bedroom_Testing.unity
+    guid: f61e202f7eba34e438d9e9f357d90d43
+  - enabled: 1
     path: Assets/Scenes/2_Kitchen.unity
     guid: 1bdbb1077e708c240a0f67f86ce108c2
   - enabled: 1
