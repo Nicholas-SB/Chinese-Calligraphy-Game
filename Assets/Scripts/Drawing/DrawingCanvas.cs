@@ -113,6 +113,8 @@ public class DrawingCanvas : MonoBehaviour, IPointerDownHandler, IDragHandler, I
 
     public void ClearCanvas()
     {
+        if (drawTexture == null) return;
+        
         Color[] pixels = new Color[drawTexture.width * drawTexture.height];
         for (int i = 0; i < pixels.Length; i++)
             pixels[i] = Color.clear;
@@ -120,8 +122,12 @@ public class DrawingCanvas : MonoBehaviour, IPointerDownHandler, IDragHandler, I
         drawTexture.SetPixels(pixels);
         drawTexture.Apply();
 
-        // Clear stroke data too
         strokes.Clear();
         currentStroke.Clear();
+    }
+
+    public Texture2D GetDrawing()
+    {
+        return drawTexture;
     }
 }
