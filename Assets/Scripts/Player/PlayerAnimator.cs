@@ -10,6 +10,8 @@ public class PlayerAnimator : MonoBehaviour
     private bool facingRight = false;
     private Coroutine flipCoroutine;
 
+    private float currentInterval;
+
     void Awake()
     {
         animator = GetComponent<Animator>();
@@ -18,13 +20,13 @@ public class PlayerAnimator : MonoBehaviour
 
     void Update()
     {
-        // animation speed
+        // Animation speed
         if (Mathf.Abs(rb.linearVelocity.x) > 0.01f)
             animator.speed = 1f;
         else
             animator.speed = 0.5f;
 
-        // sprite flipping
+        // Sprite flipping
         if (rb.linearVelocity.x > 0.01f && !facingRight)
         {
             facingRight = true;
@@ -49,7 +51,6 @@ public class PlayerAnimator : MonoBehaviour
         float startX = transform.localScale.x;
         Vector3 scale = transform.localScale;
 
-        // squish to 0 from current position
         float t = 0f;
         while (t < 1f)
         {
@@ -59,7 +60,6 @@ public class PlayerAnimator : MonoBehaviour
             yield return null;
         }
 
-        // unsquish to target
         t = 0f;
         while (t < 1f)
         {

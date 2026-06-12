@@ -1,7 +1,6 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
-using TMPro;
 
 public class TestingPhaseManager : MonoBehaviour
 {
@@ -10,7 +9,6 @@ public class TestingPhaseManager : MonoBehaviour
     [SerializeField] private Animator playerAnimator;
     [SerializeField] private float hitWaitDuration = 2f;
     [SerializeField] private DrawingCanvas drawingCanvas;
-    [SerializeField] private TextMeshProUGUI feedbackText;
 
     private SlimeBehavior targetedSlime;
     private bool isGameOver = false;
@@ -19,6 +17,17 @@ public class TestingPhaseManager : MonoBehaviour
     void Awake()
     {
         Instance = this;
+    }
+
+    void Start()
+    {
+        AudioManager.Instance.PlayTesting();
+    }
+
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.P))
+            StartCoroutine(WinSequence());
     }
 
     public void RegisterSlime(SlimeBehavior slime)
@@ -35,7 +44,7 @@ public class TestingPhaseManager : MonoBehaviour
     private void CheckWinCondition()
     {
         SlimeSpawner spawner = FindFirstObjectByType<SlimeSpawner>();
-        bool doneSpawning = spawner == null || !spawner.enabled || 
+        bool doneSpawning = spawner == null || !spawner.enabled ||
                             spawner.spawnedCount >= spawner.maxSlimes;
 
         if (doneSpawning && activeSlimes.Count == 0)
@@ -45,25 +54,18 @@ public class TestingPhaseManager : MonoBehaviour
     private IEnumerator WinSequence()
     {
         yield return new WaitForSeconds(3f);
-        FadeManager.Instance.FadeToNextScene();
+        FadeManager.Instance.FadeToNextSceneWithDoor();
     }
 
     public void SetTargetSlime(SlimeBehavior slime)
     {
         if (isGameOver) return;
         targetedSlime = slime;
-        Debug.Log($"Targeted slime: {slime.hanzis[0]}");
     }
 
     public void OnSubmitDrawing()
     {
-        if (isGameOver) return;
-
-        if (targetedSlime == null)
-        {
-            StartCoroutine(ShowFeedback("Tap a slime first!"));
-            return;
-        }
+        if (isGameOver || targetedSlime == null) return;
 
         Texture2D drawing = drawingCanvas.GetDrawing();
         string targetHanzi = targetedSlime.hanzis[0];
@@ -72,24 +74,25 @@ public class TestingPhaseManager : MonoBehaviour
         Debug.Log($"Score against {targetHanzi}: {score * 100f:F1}%");
 
         if (score >= HanziRecognizer.Instance.passThreshold)
-        {
-            targetedSlime.GetKilled();
-            targetedSlime = null;
-            drawingCanvas.ClearCanvas();
-            playerAnimator.SetTrigger("Cast");
-        }
-        else
-        {
-            StartCoroutine(ShowFeedback($"{score * 100f:F0}% - Try again!"));
-        }
+            {
+                AudioManager.Instance.PlaySuccess();
+                targetedSlime.GetKilled();
+                targetedSlime = null;
+                drawingCanvas.ClearCanvas();
+                playerAnimator.SetTrigger("Cast");
+            }
+            else
+            {
+                StartCoroutine(FailSequence());
+            }
     }
 
-    private IEnumerator ShowFeedback(string message)
+    private IEnumerator FailSequence()
     {
-        feedbackText.text = message;
-        feedbackText.gameObject.SetActive(true);
+        AudioManager.Instance.PlayFail();
         yield return new WaitForSeconds(0.5f);
-        feedbackText.gameObject.SetActive(false);
+        drawingCanvas.ClearCanvas();
+        targetedSlime = null;
     }
 
     public void OnPlayerHit()
@@ -115,10 +118,5 @@ public class TestingPhaseManager : MonoBehaviour
 
         if (FadeManager.Instance != null)
             FadeManager.Instance.FadeToPreviousScene();
-        else
-            Debug.LogWarning("FadeManager not found! Start from 0_MainMenu.");
     }
-
-    
 }
-

@@ -7,11 +7,15 @@ public class MainMenu : MonoBehaviour
     [SerializeField] private GameObject settingsPanel;
     [SerializeField] private GameObject dimmer;
 
-    public void OnPlayButton()
+    void Start()
     {
-        SceneManager.LoadScene("1_Bedroom");
+        AudioManager.Instance.PlayMainMenu();
     }
 
+    public void OnPlayButton()
+    {
+        FadeManager.Instance.FadePlain("0_Intro");
+    }
     public void OnCreditsButton()
     {
         dimmer.SetActive(true);

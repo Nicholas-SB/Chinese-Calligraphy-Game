@@ -18,7 +18,15 @@ public class HanziRecognizer : MonoBehaviour
 
     void Awake()
     {
-        Instance = this;
+        if (Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
     }
 
     private float CompareTextures(Texture2D drawing, Texture2D reference)
